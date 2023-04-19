@@ -8,15 +8,24 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('../ex022/imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attachment
+
+                OBS: size, não está funcionando mais no w3c a shorthands tem essa organização no manual
+            */
+            background: black url('../ex022/imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
@@ -27,6 +36,11 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis sapiente rerum iusto culpa in. Quis enim corrupti recusandae non quod esse cum earum saepe, itaque doloremque ducimus, error quisquam rerum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus temporibus architecto adipisci repellendus sint voluptate et doloremque! Ea, iure temporibus, numquam cupiditate maxime minus dolorum omnis ratione facere ab porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non esse magni provident, similique dignissimos velit odit sequi harum commodi eaque nostrum at neque expedita consectetur ad animi inventore quisquam veritatis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis sapiente rerum iusto culpa in. Quis enim corrupti recusandae non quod esse cum earum saepe, itaque doloremque ducimus, error quisquam rerum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus temporibus architecto adipisci repellendus sint voluptate et doloremque! Ea, iure temporibus, numquam cupiditate maxime minus dolorum omnis ratione facere ab porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non esse magni provident, similique dignissimos velit odit sequi harum commodi eaque nostrum at neque expedita consectetur ad animi inventore quisquam veritatis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis sapiente rerum iusto culpa in. Quis enim corrupti recusandae non quod esse cum earum saepe, itaque doloremque ducimus, error quisquam rerum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus temporibus architecto adipisci repellendus sint voluptate et doloremque! Ea, iure temporibus, numquam cupiditate maxime minus dolorum omnis ratione facere ab porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non esse magni provident, similique dignissimos velit odit sequi harum commodi eaque nostrum at neque expedita consectetur ad animi inventore quisquam veritatis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis sapiente rerum iusto culpa in. Quis enim corrupti recusandae non quod esse cum earum saepe, itaque doloremque ducimus, error quisquam rerum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus temporibus architecto adipisci repellendus sint voluptate et doloremque! Ea, iure temporibus, numquam cupiditate maxime minus dolorum omnis ratione facere ab porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non esse magni provident, similique dignissimos velit odit sequi harum commodi eaque nostrum at neque expedita consectetur ad animi inventore quisquam veritatis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis sapiente rerum iusto culpa in. Quis enim corrupti recusandae non quod esse cum earum saepe, itaque doloremque ducimus, error quisquam rerum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus temporibus architecto adipisci repellendus sint voluptate et doloremque! Ea, iure temporibus, numquam cupiditate maxime minus dolorum omnis ratione facere ab porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non esse magni provident, similique dignissimos velit odit sequi harum commodi eaque nostrum at neque expedita consectetur ad animi inventore quisquam veritatis.</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis sapiente rerum iusto culpa in. Quis enim corrupti recusandae non quod esse cum earum saepe, itaque doloremque ducimus, error quisquam rerum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus temporibus architecto adipisci repellendus sint voluptate et doloremque! Ea, iure temporibus, numquam cupiditate maxime minus dolorum omnis ratione facere ab porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non esse magni provident, similique dignissimos velit odit sequi harum commodi eaque nostrum at neque expedita consectetur ad animi inventore quisquam veritatis.</p>
     </main>
 </body>
