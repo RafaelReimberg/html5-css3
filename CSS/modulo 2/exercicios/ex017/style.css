@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    
+    color: rgb(226, 217, 217);
+    background-color: rgb(124, 121, 121);
+    
+ }
+ h1{
+     font: italic bolder 3em 'Ruslan Display';
+     color: linear-gradient( to right, rgb(110, 102, 102), rgb(37, 30, 30), rgb(110, 102, 102)) ;
+     text-align: center;
+ }
+ main{
+     background-image: linear-gradient(rgb(31, 28, 28), rgb(131, 120, 120));
+     box-shadow: 5px 5px 5px rgb(143, 143, 143);
+     border-radius: 10px;
+     height: 600px;
+     width: 800px;
+     
+ }
+ h2{
+    font: italic bolder 3em 'Permanent Marker';
+    color: rgb(243, 238, 238);
+    text-align: left;
+}
+li{
+    display: contents;
+    color: rgb(185, 169, 169);
+}
