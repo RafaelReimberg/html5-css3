@@ -11,12 +11,13 @@ Desktop: 992px até 1200px
 Grandes telas: acime de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /* CONFIGURAÇÃO PARA TABLET*/
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }    
     section#login {
-        width: 80vw; 
+        width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem{
@@ -37,12 +38,13 @@ Grandes telas: acime de 1200px
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /* CONFIGURAÇÕES PARA DESKTOP */
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     section#login{
         width: 950px;
+        height: 310px;
     }
     
     section#login > div#imagem{
@@ -60,5 +62,16 @@ Grandes telas: acime de 1200px
     }
     div#formulario{
         font-size: 1.2em;
+    }
+
+    div.campo > input{
+        background-color: #94cfcd;
+        font-size: 1em;
+        width: calc(100% - 45.3px);
+        height: 100%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+        transform: translateY(-17px);
     }
 }
