@@ -137,5 +137,6 @@ form > a.botao:hover{
 }
 
 form > a.botao > span{
-    font-size: 1em;
+    font-size: 1.1em;
+    transform: translateY(4px);
 }

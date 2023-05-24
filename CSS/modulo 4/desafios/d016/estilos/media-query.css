@@ -57,11 +57,22 @@ Grandes telas: acime de 1200px
         float: left;
         width: 50%;
     }
+
     div#formulario{
         font-size: 2em;
     }
+
     div#formulario{
         font-size: 1.2em;
+    }
+
+    div.campo > span{
+        color: white;
+        /*background-color: black;*/
+        font-size: 1.7em;
+        width: 40px;
+        padding: 2px;
+        margin: 0px;
     }
 
     div.campo > input{
@@ -72,6 +83,6 @@ Grandes telas: acime de 1200px
         border: 0px;
         border-radius: 8px;
         padding: 4px;
-        transform: translateY(-17px);
+        transform: translateY(-8px);
     }
 }
